@@ -34,3 +34,15 @@ int main (){
         cin.ignore(1, '\n');
         cout << endl;
     }
+        for (int i=0;i<3;i++){
+        cout << endl;
+        cout << "Data Mahasiswa ke-"<< (i+1)<< ";" ;
+        cout << "\nNIM : " << mhs[i].nim;
+        cout << "\nNama : " << mhs[i].nama;
+        cout << "\nAlamat :";
+        cout << "\n\tKota : " << mhs[i].alamat.kota;
+        cout << "\n\tDesa : " << mhs[i].alamat.desa;
+        cout << "\nUmur : " << mhs[i].umur;
+        cout << endl;
+    }
+};
