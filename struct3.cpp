@@ -15,3 +15,7 @@ struct Mahasiswa{
 
 int main (){
     Mahasiswa mhs;
+    cout << "Nomor Induk Mahasiswa : ";
+    getline(cin, mhs.nim);
+    cout << "Nama Mahasiswa : ";
+    getline(cin, mhs.nama);
